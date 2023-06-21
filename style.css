@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Luxurious+Roman&family=Pacifico&family=Playball&family=Playfair:opsz,wght@5..1200,300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* #11009E / #4942E4 / #3066be / #b4c5e4 / #fbfff1 */
+
+.navbar a{
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.navbar{
+  background-color: #4942E4;
+}
+
+.navbar ul{
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 80px;
+}
+
+.navbar-nav .nav-link:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.navbar-nav .nav-link:hover{
+  color: #fbfff1;
+  text-shadow: 0 0 20px #abda3e,
+  0 0 10px rgba(211, 214, 17, 0.85),
+  0 0 20px rgba(211, 214, 17, 0.85),
+  0 0 40px rgba(211, 214, 17, 0.85),
+  0 0 80px rgba(211, 214, 17, 0.85),
+  0 0 100px rgba(211, 214, 17, 0.85);
+}
+
+.navbar-nav .nav-link:hover:before{
+  visibility: visible;
+  transform: scaleX(1);
+}
