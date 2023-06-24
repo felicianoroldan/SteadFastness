@@ -9,11 +9,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
-<body class="gif" >
+<body class="body bg-black"> 
 
     <!-- navbar and search -->
     <header>
-      <nav class="navbar navbar-expand-lg ">
+      <nav class="navbar navbar-expand-lg fixed-top ">
           <a class="navbar-brand logo text-upper" href="#"><span class="display-2 bg-warning rounded-circle fw-bold">S</span>TEADFASTNESS</a>
           <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -21,16 +21,19 @@
           <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">HOME</a>
+                <a class="nav-link" href="index.html">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT</a>
+                <a class="nav-link" href="#About">ABOUT</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">FITNESS</a>
+                <a class="nav-link" href="#fitness">FITNESS</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">WELLNESS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">VIDEOS</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">CONTACT</a>
@@ -47,89 +50,288 @@
     </header>
     <!-- navbar and search -->
 
-    <!-- section -->
-    <main>
-      <h3 class="text-center mt-5">"Being healthly and fit isn't a fad or a trend it's a lifestyle"</h3>
-      <div class="container-fluid mt-4 ">
-        <div class="row">
-          <div class="col-12">
-            <div class="card mb-3">
-              <video src="180419_Boxing_17_10_preview.mp4" class="object-fit-contain" autoplay></video>
+      <main class="main-center" style="width: 90vw;">
+
+      <!-- section-1 -->
+        <section>
+          <div class="bg-image" style="background-image: url('./photos/bg-image.jpg');">
+            <h3 class="text-center mt-5">------------------------------------------------------------------------</h3>
+            <div class="container-fluid mt-5">
+              <div class="row justify-content-center">
+                <div class="col-11">
+                  <div class="card">
+                    <iframe src="https://www.youtube.com/embed/JdL6EMOcVW8" style="height: 90vh;" controls loop muted></iframe>
+                  </div>
+                </div>
+                <div class="col-10 mt-3">
+                  <h5 class="text-center d-flex justify-content-center">Healthiness refers to the state of being healthy, which encompasses overall well-being and the absence of illness or disease. It encompasses physical, mental, and emotional well-being, as well as a balanced and harmonious functioning of the body and mind.</h5>
+                </div>
+              </div>
+              <hr>
+              <div class="row mt-2 d-flex justify-content-center">
+                <div class="col-12 col-md-6 col-sm-4">
+                  <div class="card mt-4">
+                    <img src="./photos/pexels-andrea-piacquadio-903171.jpg" class="card-img-top" alt="photo">
+                    <p class="text-center mt-2">Warm-up and Stretching</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-sm-4">
+                  <div class="card mt-4">
+                  <img src="./photos/5J9A0066.jpg" class="card-img-top" alt="photo">
+                  <p class="text-center mt-2">Proper handling of equipment in gym</p>
+                </div>
+                </div>
+                <div class="col-12 col-md-6 col-sm-4">
+                  <div class="card mt-4">
+                  <img src="./photos/pexels-jack-sparrow-4045741.jpg" class="card-img-top" alt="photo">
+                  <p class="text-center mt-2">Proper nutrition and healthy lifestyle</p>
+                </div>
+                </div>
+                <div class="col-10">
+                  <div class="mt-5">
+                    <h5 class="text-center">Engaging in activities and consuming healthy foods are both important for maintaining overall health and well-being.</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+        <!-- section-1 -->
+
+          <h3 class="qoute text-center mt-3">"Being healthly and fit isn't a fad or a trend it's a <span class=" text-warning">lifestyle"</span></h3>
+
+        <!-- section-2 -->
+        <section class="mt-5" id="About">
+          <div class="bg-image" style="background-image: url('./photos/best-times-to-exercise-during-ramadan.jpg');">
+            <div class="container-fluid mt-4 ">
+              <div class="row row-cols-1 row-cols-md-3 d-flex justify-content-center g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <p class="card-text text-center ">Welcome to SteadFastness, your ultimate destination for reliable and up-to-date health information and resources. We are a passionate team of experts dedicated to empowering individuals to live healthy, vibrant lives.</p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <p class="card-text text-center">At SteadFastness, we believe that good health is the foundation for a fulfilling life. Our mission is to provide accessible and trustworthy information to help you make informed decisions about your health and well-being. Whether you're seeking guidance on nutrition, fitness, mental health, or general wellness, we've got you covered.</p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <p class="card-text text-center">What sets us apart is our commitment to delivering evidence-based content. Our team of experienced health professionals, including doctors, nutritionists, fitness trainers, and psychologists, work tirelessly to ensure that the information we provide is accurate, reliable, and backed by the latest scientific research. We strive to present complex topics in a clear and understandable manner, making health information accessible to everyone.</p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <p class="card-text text-center ">We understand that each person's journey to optimal health is unique. That's why we provide a wide range of articles, guides, videos, and tools to cater to various interests and needs. Whether you're a beginner looking to kickstart a healthy lifestyle or a seasoned wellness enthusiast seeking to expand your knowledge, you'll find valuable resources and practical tips on SteadFastness.</p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <p class="card-text text-center">We also believe in the power of community. Our platform fosters an inclusive and supportive environment, where individuals can connect, share their experiences, and inspire one another. Through our active forums, social media channels, and interactive features, we encourage dialogue, collaboration, and the exchange of ideas, creating a virtual community united in the pursuit of well-being.</p>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="row mt-5 d-flex justify-content-center">
+                <div class="col-12 col-md-4 col-sm-4 mt-3">
+                  <div class="card">
+                    <img src="./photos/download.jpg" class="card-img-top" alt="photo">
+                    <p class="text-center bg-primary.bg-gradient">Exercise can extend your life.</p>
+                  </div>
+                </div>
+                <div class=" col-12 col-md-4 col-sm-4 mt-3">
+                  <div class="card">
+                  <img src="./photos/1490024347-1475508420-running3.jpg" class="card-img-top" alt="photo">
+                  <p class="text-center">Working out every morning</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 col-sm-4 mt-3">
+                  <div class="card ">
+                  <img src="./photos/ExerciseandPhysicalFitness_share.jpg" class="card-img-top" alt="photo">
+                  <p class="text-center">Exercise and Physical Fitness</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-12">
-            <p class="text-center pt-1">Healthiness refers to the state of being healthy, <br/> which encompasses overall well-being and the absence of <br/> illness or disease. It encompasses physical, mental, and <br/> emotional well-being, as well as a balanced and harmonious<br/> functioning of the body and mind.
-            </p>
+        </section>
+          <!-- section-2 -->
+
+          <!-- section-3 -->
+        <section id="fitness">
+          <div class="bg-image" style="background-image: url('./photos/bg-image.jpg');">
+            <h3 class="qoute text-center mt-4">"Each New Day Is A New Opportunity To Improve Yourself. <span class=" text-warning">Take It.</span> And Make The Most of it.  "</h3>
+            <div class="container-fluid mt-4 ">
+              <div class="row mt-5">
+                <div class="card text-bg-dark">
+                  <img src="Photos/boxer-woman-workout-black-background-fitness-fighter-5k-8k-5120x2880-5683.jpg" class="card-img" alt="Boxer Woman" style="height: 60vh;">
+                  <div class="card-img-overlay">
+                    <h1 class="text-center mt-5"><span class="text-warning fw-bold">F I T N E S S</span></h1>
+                    <p class="text-center fw-bold"> is the quality or state of being fit.</p>
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 col-sm-4 mt-3">
+                  <div class="card">
+                    <img src="./photos/iStock_000020558272_Small.jpg" class="card-img-top" alt="photo">
+                    <p class="text-center bg-primary.bg-gradient">Racquetball</p>
+                  </div>
+                </div>
+                <div class=" col-6 col-md-4 col-sm-4 mt-3">
+                  <div class="card">
+                  <img src="./photos/group-exercise.jpg" class="card-img-top" alt="photo">
+                  <p class="text-center">Group Exercise</p>
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 col-sm-4 mt-3">
+                  <div class="card ">
+                  <img src="./photos/determined-young-woman-working-out-row-machine-fitness-studio-1024x683.jpg" class="card-img-top" alt="photo">
+                  <p class="text-center">RowingMachine</p>
+                  </div>
+                </div>
+                <br>
+                <br>
+                <div class="col-6 col-md-4 col-sm-4 mt-3">
+                  <div class="card">
+                    <img src="./photos/LegExercises_en8c825a9da07728466075a593cb53aacc.jpg" class="card-img-top" alt="photo">
+                    <p class="text-center bg-primary.bg-gradient">Legs Exercise</p>
+                  </div>
+                </div>
+                <div class=" col-6 col-md-4 col-sm-4 mt-3">
+                  <div class="card">
+                  <img src="./photos/iStock-487264426.jpg" class="card-img-top" alt="photo">
+                  <p class="text-center">Swimming</p>
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 col-sm-4 mt-3">
+                  <div class="card ">
+                  <img src="./photos/zumba.jpg" class="card-img-top" alt="photo">
+                  <p class="text-center">Zumba Dance</p>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-primary mt-5" href="#" role="button" style="width: 25vw;">More Activities</a>
+
+                </div>
+                <div class="col-12">
+                  <div class="mt-4">
+                    <p class="text-center ">
+                      Engaging in activities and consuming healthy foods are both important for maintaining overall health and well-being.</p>
+                  </div>
+                </div>
+              </div>
+            </div>      
           </div>
-        <hr>
-        <div class="row mt-2">
-          <div class="col-4">
-            <div class="card">
-              <img src="pexels-andrea-piacquadio-903171.jpg" class="card-img-top" alt="photo">
+        </section>
+        <!-- section-3 -->
+
+        <!-- section-4 -->
+        <section>
+          <div id="carouselCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="4" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="5" aria-label="Slide 5"></button>
+
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="How_Friends_Help_You_Regulate_Your_Emotions.jpg" class="d-block w-100" alt="Emotional Photo">
+                <div class="carousel-caption d-none d-md-block">
+                  <a class="btn btn-outline-warning text-primary fw-bold fs-1" href="#" role="button">Emotional</a>
+                  <p><span class="text-light">Some representative placeholder content for the third slide.</span></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="GettyImages-1057500046-f7e673d3a91546b0bd419c5d8336b2e0 (1).jpg" class="d-block w-100" alt="Social Photo">
+                <div class="carousel-caption d-none d-md-block">
+                  <a class="btn btn-outline-warning text-primary fw-bold fs-1" href="#" role="button">Social</a>
+                  <p><span class="text-light">Some representative placeholder content for the third slide.</span></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="CommunityGarden800x600.jpg" class="d-block w-100" alt="Environmental Photo">
+                <div class="carousel-caption d-none d-md-block">
+                  <a class="btn btn-outline-warning text-primary fw-bold fs-1" href="#" role="button">Environmental</a>
+                  <p><span class="text-light">Some representative placeholder content for the third slide.</span></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Blog-post-size-7.png" class="d-block w-100" alt="Healthy Food Photo">
+                <div class="carousel-caption d-none d-md-block">
+                  <a class="btn btn-outline-warning text-primary fw-bold fs-1" href="#" role="button">Physical Health</a>
+                  <p><span class="text-light">Some representative placeholder content for the third slide.</span></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Mental-Health-Well-Being.jpg" class="d-block w-100" alt="Mental Photo">
+                <div class="carousel-caption d-none d-md-block">
+                  <a class="btn btn-outline-warning text-primary fw-bold fs-1" href="#" role="button">Mental</a>
+                  <p><span class="text-light">Some representative placeholder content for the third slide.</span></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="sdc-stages.jpg" class="d-block w-100" alt="Spititual Photo">
+                <div class="carousel-caption d-none d-md-block">
+                  <a class="btn btn-outline-warning text-primary fw-bold fs-1" href="#" role="button">Spiritual</a>
+                  <p><span class="text-light">Some representative placeholder content for the third slide.</span></p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+          <!-- footer -->
+        <footer>
+          <div class="container">
+            <div class="row mb-3">
+              <div class="col-4 text-center">
+                <p class="text-center fw-semibold">Social Media</p>
+                <div class="card-body">
+                  <a href="#"><i class="fa-brands fa-facebook-messenger fa-l" style="color: #155ad1;"></i></a>
+                  <a href="#"><i class="fa-brands fa-discord  fa-l" style="color: #042dfb;"></i></a>
+                  <a href="#"><i class="fa-solid fa-envelope-open fa-l" style="color: #ca2143;"></i></a>
+                </div>
+              </div>
+        <!-- contact -->
+              <div class="col-4 text-center">
+                <p class="text-center fw-semibold">Contact and Address</p>
+                <div class="card-body">
+                  <a href="#">+63-9999-111-111</a>
+                  <br>
+                  <a href="#">Whatsapp</a>
+                  <br>
+                  <a href="#">Google Map</a>
+                </div>
+              </div>
+        <!-- Vlogs -->
+              <div class="col-4 text-center">
+                <p class="text-center fw-semibold">Vlogs</p>
+                <div class="card-body">
+                  <a href="#"><i class="fa-brands fa-youtube fa-l" style="color: #d0112d;"></i></a>
+                  <a href="#"><i class="fa-brands fa-tiktok fa-l" style="color: white;"></i></a>
+                  <a href="#"><i class="fa-brands fa-facebook-f fa-l" style="color: #073e9c;"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <p class="text-center  mt-3">SteadFastness © All Rights Reserved</p>
             </div>
           </div>
-          <div class="col-4">
-            <div class="card">
-            <img src="5J9A0066.jpg" class="card-img-top" alt="photo">
-          </div>
-          </div>
-          <div class="col-4">
-            <div class="card ">
-            <img src="pexels-jonathan-borba-3076516.jpg" class="card-img-top" alt="photo">
-          </div>
-          </div>
-          <div class="col-12">
-            <div class="mt-4">
-              <p class="text-center ">
-                Engaging in activities and consuming healthy foods are both important for maintaining overall health and well-being.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+        </footer>
+
+      </main>
     
-    </main>
-    <!-- section -->
-    <hr>
-
-    <!-- social media  -->
-    <footer>
-      <div class="container">
-        <div class="row mb-3">
-          <div class="col-4 text-center">
-            <p class="text-center fw-semibold">Social Media</p>
-            <div class="card-body">
-              <a href="#"><i class="fa-brands fa-facebook-messenger fa-xl" style="color: #155ad1;"></i></a>
-              <a href="#"><i class="fa-brands fa-discord  fa-xl" style="color: #042dfb;"></i></a>
-              <a href="#"><i class="fa-solid fa-envelope-open fa-xl" style="color: #ca2143;"></i></a>
-            </div>
-          </div>
-    <!-- contact -->
-          <div class="col-4 text-center">
-            <p class="text-center fw-semibold">Contact and Address</p>
-            <div class="card-body">
-              <a href="">+63-9999-111-111</a>
-              <br>
-              <a href="">Google Map</a>
-              <br>
-              <a href="">Viber</a>
-              <br>
-              <br>
-              <p>Steadfastness © All Rights Reserved</p>
-            </div>
-          </div>
-          <div class="col-4 text-center">
-    <!-- Vlogs -->
-            <p class="text-center fw-semibold">Vlogs</p>
-            <div class="card-body">
-              <a href="#"><i class="fa-brands fa-youtube fa-xl" style="color: #d0112d;"></i></a>
-              <a href="#"><i class="fa-brands fa-tiktok fa-xl" style="color: #030203;"></i></a>
-              <a href="#"><i class="fa-brands fa-facebook-f fa-xl" style="color: #073e9c;"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
