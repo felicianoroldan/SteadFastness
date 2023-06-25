@@ -19,7 +19,7 @@
   background-color: #4942E4;
 }
 
-.navbar ul:hover{
+.navbar ul{
   font-size: 20px;
   font-weight: 600;
   margin-right: 80px;
@@ -35,7 +35,7 @@
   visibility: hidden;
 }
 
-.navbar-nav .nav-link:hover{
+.navbar-nav .nav-link{
   color: #fbfff1;
   text-shadow: 0 0 20px #abda3e,
   0 0 10px rgba(211, 214, 17, 0.85),
@@ -45,9 +45,40 @@
   0 0 100px rgba(211, 214, 17, 0.85);
 }
 
-.navbar-nav .nav-link:before{
-  visibility: visible;
-  transform: scaleX(1);
+
+.transition-nav:hover{
+  border-radius: 2%;
+  background-color: #b8d60ca5;
+  transition-duration: .2s;
+  transition-delay: .1s;
+}
+
+.transition:hover{
+  background-color: #b5d211 ;
+}
+
+/* animation zoom-in-out-image */
+
+.zoom-in-out-image{
+  transition: zoom-in-zoom-out 3s;
+}
+
+.zoom-in-out-image{
+  animation: zoom-in-zoom-out 4s;
+  animation-duration: 6s;
+}
+
+@keyframes zoom-in-zoom-out{
+  50%{
+    transform: scale(.5, .5);
+  }
+  25%{
+    transform: scale(1, 1);
+  }
+  0%{
+    transform: scale(.5, .5);
+  }
+
 }
 /* navbar */
 
@@ -60,6 +91,8 @@ body{
 .container-fluid{
   margin-top: 15%;
 }
+
+/* section-1 */
 
 .col-10 h5{
   color: #fbfff1;
@@ -80,12 +113,87 @@ h3{
   color: #fbfff1;
 }
 
+/* trasition-1 */
+
+.transition{
+  background-color: #b4c5e4;;
+  transition-duration: .2s;
+  transition-delay: .2s;
+}
+
+.transition:hover{
+  background-color: hwb(66 7% 11% / 0.902);
+}
+
+/* animation zoom-in-out-image */
+
+.zoom-in-out-image{
+  transition: zoom-in-zoom-out 3s;
+}
+
+.zoom-in-out-image{
+  animation: zoom-in-zoom-out 4s;
+  animation-duration: 6s;
+}
+
+@keyframes zoom-in-zoom-out{
+  50%{
+    transform: scale(.5, .5);
+  }
+  25%{
+    transform: scale(1, 1);
+  }
+  0%{
+    transform: scale(.5, .5);
+  }
+
+}
+
+
 .bg-image h3{
   color: #fbfff1;
   margin-top: 7px;
 }
 
-/* section-3 */
+
+.transition{
+  background-color: #b4c5e4;;
+  transition-duration: 1s;
+  transition-delay: 1s;
+}
+
+.transition2:hover{
+  background-color: #1deed244;
+}
+
+/* animation zoom-in-out-image */
+
+.zoom-in-out-image{
+  transition: zoom-in-zoom-out 3s;
+}
+
+.zoom-in-out-image{
+  animation: zoom-in-zoom-out 4s;
+  animation-duration: 6s;
+}
+
+@keyframes zoom-in-zoom-out{
+  50%{
+    transform: scale(.5, .5);
+  }
+  25%{
+    transform: scale(1, 1);
+  }
+  0%{
+    transform: scale(.5, .5);
+  }
+
+}
+/* transition-1 */
+
+
+/* section-2 */
+/* transition-2 */
 .qoute{
   color: #fbfff1;
   font-weight: 600;
@@ -104,10 +212,84 @@ h3{
   font-size: 1rem;
  }
 
- /* section-3 */
+ /* transition-3 */
+
+ .transition3{
+  background-color: #b4c5e4;;
+  transition-duration: .2s;
+  transition-delay: .2s;
+}
+
+.transition3:hover{
+  background-image: url('gradient-colors.gif');
+}
+
+/* animation zoom-in-out-image */
+
+.zoom-in-out-image{
+  transition: zoom-in-zoom-out 3s;
+}
+
+.zoom-in-out-image{
+  animation: zoom-in-zoom-out 4s;
+  animation-duration: 6s;
+}
+
+@keyframes zoom-in-zoom-out{
+  50%{
+    transform: scale(.5, .5);
+  }
+  25%{
+    transform: scale(1, 1);
+  }
+  0%{
+    transform: scale(.5, .5);
+  }
+
+}
+ /* transion-2 */
+ /* section-2 */
 
 
- /* section-4 */
+
+ /* transition-3 */
+
+
+ .transition{
+  background-color: #b4c5e4;
+  transition-duration: .2s;
+  transition-delay: .2s;
+}
+
+.transition:hover{
+  background-color: #b4c5e4 ;
+}
+
+/* animation zoom-in-out-image */
+
+.zoom-in-out-image{
+  transition: zoom-in-zoom-out 3s;
+}
+
+.zoom-in-out-image{
+  animation: zoom-in-zoom-out 4s;
+  animation-duration: 6s;
+}
+
+@keyframes zoom-in-zoom-out{
+  50%{
+    transform: scale(.5, .5);
+  }
+  25%{
+    transform: scale(1, 1);
+  }
+  0%{
+    transform: scale(.5, .5);
+  }
+
+}
+
+
 
  .carousel-item{
   width: 80vw;
@@ -119,9 +301,45 @@ h3{
 }
 
 
-/* image trasition */
-
 .h5{
   color: #fbfff1;
   text-shadow: 2px 2px;
 }
+
+
+
+
+/* 
+
+.transition{
+  background-color: #b4c5e4;;
+  transition-duration: .2s;
+  transition-delay: .2s;
+}
+
+.transition:hover{
+  background-color: #9fbc0cc4;
+}
+
+
+.zoom-in-out-image{
+  transition: zoom-in-zoom-out 3s;
+}
+
+.zoom-in-out-image{
+  animation: zoom-in-zoom-out 4s;
+  animation-duration: 6s;
+}
+
+@keyframes zoom-in-zoom-out{
+  50%{
+    transform: scale(.5, .5);
+  }
+  25%{
+    transform: scale(1, 1);
+  }
+  0%{
+    transform: scale(.5, .5);
+  }
+
+} */
