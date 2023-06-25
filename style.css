@@ -9,12 +9,13 @@
 
 /* navbar */
 
+
 .navbar a{
   font-weight: 600;
   color: aliceblue;
 }
 
-.navbar:hover{
+.navbar{
   background-color: #4942E4;
 }
 
@@ -44,7 +45,7 @@
   0 0 100px rgba(211, 214, 17, 0.85);
 }
 
-.navbar-nav .nav-link:hover:before{
+.navbar-nav .nav-link:before{
   visibility: visible;
   transform: scaleX(1);
 }
@@ -84,6 +85,7 @@ h3{
   margin-top: 7px;
 }
 
+/* section-3 */
 .qoute{
   color: #fbfff1;
   font-weight: 600;
@@ -93,7 +95,7 @@ h3{
   margin-left: -10px;
 }
 
-.card-img-overlay h1{
+.card-img-overlay h2{
  font-size: 3rem;
  margin-left: -10px;
 }
@@ -101,6 +103,8 @@ h3{
 .card-img-overlay p{
   font-size: 1rem;
  }
+
+ /* section-3 */
 
 
  /* section-4 */
