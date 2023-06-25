@@ -9,6 +9,10 @@
 
 /* navbar */
 
+body{
+  display: flex;
+  justify-content: center;
+}
 
 .navbar a{
   font-weight: 600;
@@ -82,11 +86,6 @@
 }
 /* navbar */
 
-
-body{
-  display: flex;
-  justify-content: center;
-}
 
 .container-fluid{
   margin-top: 15%;
@@ -163,7 +162,7 @@ h3{
 }
 
 .transition2:hover{
-  background-color: #1deed244;
+  background-color: #1deed241;
 }
 
 /* animation zoom-in-out-image */
@@ -309,7 +308,7 @@ h3{
 
 
 
-/* 
+
 
 .transition{
   background-color: #b4c5e4;;
@@ -342,4 +341,4 @@ h3{
     transform: scale(.5, .5);
   }
 
-} */
+}
