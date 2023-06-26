@@ -121,7 +121,7 @@ h3{
 }
 
 .transition:hover{
-  background-color: hwb(66 7% 11% / 0.902);
+  background-color: #FFC107;
 }
 
 /* animation zoom-in-out-image */
