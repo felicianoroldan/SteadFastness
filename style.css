@@ -23,6 +23,7 @@ body{
   background-color: #4942E4;
 }
 
+
 .navbar ul{
   font-size: 20px;
   font-weight: 600;
@@ -115,13 +116,13 @@ h3{
 /* trasition-1 */
 
 .transition{
-  background-color: #b4c5e4;;
+  background-color: #b4c5e4;
   transition-duration: .2s;
   transition-delay: .2s;
 }
 
 .transition:hover{
-  background-color: #FFC107;
+  background-color: hsl(45, 100%, 51%);
 }
 
 /* animation zoom-in-out-image */
@@ -156,7 +157,7 @@ h3{
 
 
 .transition{
-  background-color: #b4c5e4;;
+  background-color: #b2bdd1;;
   transition-duration: 1s;
   transition-delay: 1s;
 }
@@ -317,7 +318,7 @@ h3{
 }
 
 .transition:hover{
-  background-color: #9fbc0cc4;
+  background-color: hsla(45, 100%, 51%, 0.694);
 }
 
 
