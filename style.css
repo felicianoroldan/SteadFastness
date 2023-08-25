@@ -15,18 +15,17 @@ body{
 }
 
 .navbar a{
-  font-weight: 600;
+  font-weight: 400;
   color: aliceblue;
 }
 
 .navbar{
-  background-color: #4942E4;
+  background-color: #0d6efd;
 }
 
-
 .navbar ul{
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 300;
   margin-right: 80px;
 }
 
@@ -42,18 +41,12 @@ body{
 
 .navbar-nav .nav-link{
   color: #fbfff1;
-  text-shadow: 0 0 20px #abda3e,
-  0 0 10px rgba(211, 214, 17, 0.85),
-  0 0 20px rgba(211, 214, 17, 0.85),
-  0 0 40px rgba(211, 214, 17, 0.85),
-  0 0 80px rgba(211, 214, 17, 0.85),
-  0 0 100px rgba(211, 214, 17, 0.85);
 }
 
 
 .transition-nav:hover{
   border-radius: 2%;
-  background-color: #b8d60ca5;
+  background-color: #ffc107;
   transition-duration: .2s;
   transition-delay: .1s;
 }
@@ -194,6 +187,7 @@ h3{
 
 /* section-2 */
 /* transition-2 */
+
 .qoute{
   color: #fbfff1;
   font-weight: 600;
@@ -342,4 +336,53 @@ h3{
     transform: scale(.5, .5);
   }
 
+}
+
+.text-background {
+  color: #ffc107;
+}
+
+
+.decoration{
+  text-decoration: none;
+}
+
+.background{
+  background-color: #ffc107dd;
+}
+
+.btn-emotional{
+  background-color: #ffc107;
+  text-decoration: none;
+}
+
+.btn-emotional:hover{
+  background-color: #0d6dfd8f;
+  text-decoration: none;
+}
+
+.text-Emo{
+  color: #fbfff1;
+}
+
+.text-Emo:hover{
+  color: #fbfff1ab;
+}
+
+.about-text:hover{
+  color: #fbfff1;
+}
+
+@media only screen and (max-width: 600px) {
+ .burger-menu{
+  margin-right: 20px;
+ }
+
+ .nav-menu-link{
+  margin-left: 10px;
+ }
+
+ .home-video{
+  height: 50px;
+ }
 }
