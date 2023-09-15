@@ -144,8 +144,8 @@ h3{
 
 
 .bg-image h3{
-  color: #fbfff1;
   margin-top: 7px;
+  background-repeat: no-repeat;
 }
 
 
@@ -216,6 +216,16 @@ h3{
 
 .transition3:hover{
   background-image: url('gradient-colors.gif');
+}
+
+#background-image{
+  background-repeat: no-repeat;
+}
+
+.mainbgimg{
+  background-image: url('./Photos/best-times-to-exercise-during-ramadan.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* animation zoom-in-out-image */
@@ -384,5 +394,9 @@ h3{
 
  .home-video{
   height: 50px;
+ }
+
+ .searchForm{
+  margin-right: 15px;
  }
 }
