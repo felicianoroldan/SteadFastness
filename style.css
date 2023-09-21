@@ -384,9 +384,7 @@ h3{
 }
 
 @media only screen and (max-width: 450px) {
- .burger-menu{
-  margin-right: 8px;
- }
+
 
  .nav-menu-link{
   margin-left: 10px;
@@ -399,4 +397,5 @@ h3{
  .searchForm{
   margin-right: 15px;
  }
+
 }
